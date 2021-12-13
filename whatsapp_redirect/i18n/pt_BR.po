@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* whatsapp_redirect
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-29 19:54+0000\n"
+"PO-Revision-Date: 2021-11-29 16:55-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: whatsapp_redirect
+#: model_terms:ir.ui.view,arch_db:whatsapp_redirect.whatsapp_send_msg_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: whatsapp_redirect
+#: model:ir.model,name:whatsapp_redirect.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_res_partner__display_name
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_res_partner__id
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_res_partner____last_update
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Ultima atualização por"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__write_date
+msgid "Last Updated on"
+msgstr "Ultima Atualização em"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__mobile
+msgid "Mobile"
+msgstr "Celular"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__user_id
+msgid "Recipient"
+msgstr "Destinatário"
+
+#. module: whatsapp_redirect
+#: model_terms:ir.ui.view,arch_db:whatsapp_redirect.whatsapp_send_msg_wizard
+msgid "Send"
+msgstr "Enviar"
+
+#. module: whatsapp_redirect
+#: code:addons/addons-Cybrosys-14/whatsapp_redirect/models/models.py:0
+#: code:addons/whatsapp_redirect/models/models.py:0
+#: model_terms:ir.ui.view,arch_db:whatsapp_redirect.whatsapp_res_partner
+#: model_terms:ir.ui.view,arch_db:whatsapp_redirect.whatsapp_send_msg_wizard
+#, fuzzy, python-format
+msgid "Whatsapp Message"
+msgstr "Mensagem de Whatsapp"
+
+#. module: whatsapp_redirect
+#: model:ir.model,name:whatsapp_redirect.model_whatsapp_message_wizard
+#, fuzzy
+msgid "Whatsapp Wizard"
+msgstr "Assistente de Whatsapp"
+
+#. module: whatsapp_redirect
+#: model:ir.model.fields,field_description:whatsapp_redirect.field_whatsapp_message_wizard__message
+msgid "message"
+msgstr "mensagem"
