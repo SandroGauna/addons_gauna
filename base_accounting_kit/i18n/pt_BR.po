@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-18 04:52+0000\n"
-"PO-Revision-Date: 2021-12-18 13:43-0400\n"
+"POT-Creation-Date: 2022-01-30 21:03+0000\n"
+"PO-Revision-Date: 2022-01-30 17:05-0400\n"
 "Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -49,7 +49,7 @@ msgstr "# de Linhas de Parcelamento"
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/credit_limit.py:0 code:addons/base_accounting_kit/models/credit_limit.py:0
 #: code:addons/trustcode-addons/base_accounting_kit/models/credit_limit.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "%s is in  Blocking Stage and has a due amount of %s %s to pay"
 msgstr "%s está em Fase de Bloqueio e tem um valor devido de %s %s para pagar"
 
@@ -446,13 +446,13 @@ msgstr "Total"
 
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/payment_matching.py:0 code:addons/base_accounting_kit/models/payment_matching.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "A reconciliation must involve at least 2 move lines."
 msgstr "Uma reconciliação deve envolver pelo menos 2 linhas de movimento."
 
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/payment_matching.py:0 code:addons/base_accounting_kit/models/payment_matching.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "A selected move line was already reconciled."
 msgstr "Uma linha de movimento selecionada já estava reconciliada."
 
@@ -724,7 +724,7 @@ msgstr "Todas as contas"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "All invoices and payments have been matched, your accounts' balances are clean."
 msgstr "Todas as faturas e pagamentos foram combinados, os saldos de suas contas estão limpos."
 
@@ -926,7 +926,7 @@ msgstr "Formatação automática"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/template.xml:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "BANK AND CASH BALANCE"
 msgstr "SALDO BANCÁRIO E DE CAIXA"
 
@@ -995,6 +995,7 @@ msgid "Blocking Amount"
 msgstr "Bloqueando Por Valor"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__body_text_position
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__body_text_position
 #: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__body_text_position
 msgid "Body Text Position"
@@ -1094,7 +1095,7 @@ msgstr "Marcar todos"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Check that you have no bank statement lines to"
 msgstr "Verifique se você não tem linhas de extrato bancário para"
 
@@ -1117,7 +1118,7 @@ msgstr "Referência de cheque"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Choose counterpart or Create Write-off"
 msgstr "Escolha contraparte ou crie write-off"
 
@@ -1165,7 +1166,7 @@ msgstr "Fechar"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Close statement"
 msgstr "Declaração de fechamento"
 
@@ -1263,7 +1264,7 @@ msgstr "Confirmar"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Congrats, you're all done!"
 msgstr "Parabéns, está tudo acabado!"
 
@@ -1280,14 +1281,14 @@ msgstr "Custo da Receita"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Create a counterpart"
 msgstr "Crie uma contrapartida"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Create model"
 msgstr "Criar modelo"
 
@@ -1434,7 +1435,7 @@ msgstr "Fatura de Cliente"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Customer/Vendor Matching"
 msgstr "Correspondência cliente/fornecedor"
 
@@ -1729,6 +1730,7 @@ msgid "Display Name"
 msgstr "Nome para Mostrar"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__multiple_invoice_type
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__multiple_invoice_type
 #: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__multiple_invoice_type
 msgid "Display Type"
@@ -1813,7 +1815,7 @@ msgstr "Data efetiva do PDC"
 
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/payment_matching.py:0 code:addons/base_accounting_kit/models/payment_matching.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "Either pass both debit and credit or none."
 msgstr "Ou passa tanto o débito quanto o crédito ou nenhum."
 
@@ -1929,7 +1931,7 @@ msgstr "Filtrar por"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Filter on account, label, partner, amount,..."
 msgstr "Filtrar por conta, rótulo, parceiro, valor,..."
 
@@ -2075,7 +2077,7 @@ msgstr "Formato"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "From now on, you may want to:"
 msgstr "De agora em diante, você pode querer:"
 
@@ -2133,14 +2135,14 @@ msgstr "Dá a ordem de sequência ao exibir uma lista de linhas de acompanhament
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Go to bank statement(s)"
 msgstr "Vá para extrato bancário(s)"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Good Job!"
 msgstr "Muito bom trabalho!"
 
@@ -2249,7 +2251,7 @@ msgstr "Identificação"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/template.xml:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "INVOICES"
 msgstr "Faturas"
 
@@ -2309,7 +2311,7 @@ msgstr "Renda"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/template.xml:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Income/Expense"
 msgstr "Receita/Despesa"
 
@@ -2368,7 +2370,7 @@ msgstr "Ele adiciona a coluna de moeda no relatório se a moeda difere da moeda 
 
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/payment_matching.py:0 code:addons/base_accounting_kit/models/payment_matching.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "It is mandatory to specify an account and a journal to create a write-off."
 msgstr "É obrigatório especificar uma conta e um diário para criar uma baixa."
 
@@ -2456,7 +2458,7 @@ msgstr "Itens do Diário"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/js/payment_matching.js:0 code:addons/base_accounting_kit/static/src/js/payment_matching.js:0
-#, fuzzy, python-format
+#, python-format
 msgid "Journal Items to Reconcile"
 msgstr "Itens de diário para conciliar"
 
@@ -2495,6 +2497,7 @@ msgid "Journals Audit"
 msgstr "Relatórios de auditoria"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__layout
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__layout
 #: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__layout
 msgid "Key"
@@ -2576,7 +2579,7 @@ msgstr "Mês Passado"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Last Reconciliation:"
 msgstr "Última Reconciliação:"
 
@@ -2732,14 +2735,14 @@ msgstr "Título principal 1 (negrito, sublinhado)"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Manual Operations"
 msgstr "Operações Manuais"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Match with entries that are not from receivable/payable accounts"
 msgstr "Combine com entradas que não são de contas a receber/a pagar"
 
@@ -2756,7 +2759,7 @@ msgstr "Mensagens"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Miscellaneous Matching"
 msgstr "Correspondência diversa"
 
@@ -2779,7 +2782,7 @@ msgstr "Modificar Depreciação"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Modify models"
 msgstr "Modificar modelos"
 
@@ -2811,6 +2814,7 @@ msgid "Move"
 msgstr "Mover"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__multiple_invoice_ids
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__multiple_invoice_ids
 msgid "Multiple Invoice"
 msgstr "Fatura múltipla"
@@ -2841,7 +2845,7 @@ msgstr "Liquido"
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/js/account_dashboard.js:0 code:addons/addons_gauna/base_accounting_kit/static/src/xml/template.xml:0
 #: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Net Profit or Loss"
 msgstr "Lucro Líquido ou Perda"
 
@@ -2915,7 +2919,7 @@ msgstr "Nota"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Nothing to do!"
 msgstr "Não há nada para fazer!"
 
@@ -2977,7 +2981,7 @@ msgstr "Somente usuários com a função 'Advisor' podem editar contas antes e i
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/js/payment_model.js:0 code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0
 #: code:addons/base_accounting_kit/static/src/js/payment_model.js:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Open balance"
 msgstr "Balanço aberto"
 
@@ -2988,7 +2992,7 @@ msgstr "Resultado Operacional"
 
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/payment_matching.py:0 code:addons/base_accounting_kit/models/payment_matching.py:0
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Operation not allowed. Since your statement line already received a number (%s), you cannot reconcile it entirely with existing journal entries otherwise it would make a gap in "
 "the numbering. You should book an entry and make a regular revert of it in case you want to cancel it."
@@ -3129,7 +3133,7 @@ msgstr "Tempo de pagamento"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Pay your"
 msgstr "Pague o seu"
 
@@ -3164,13 +3168,13 @@ msgstr "Correspondência de pagamentos"
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/account_payment.py:0 code:addons/base_accounting_kit/models/account_payment.py:0
 #: code:addons/trustcode-addons/base_accounting_kit/models/account_payment.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "Payments to print as a checks must have 'Check' or 'PDC' selected as payment method and not have already been reconciled"
 msgstr "Os pagamentos para imprimir como cheques devem ter 'Check' ou 'PDC' selecionados como método de pagamento e ainda não foram conciliados"
 
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/account_payment.py:0 code:addons/base_accounting_kit/models/account_payment.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "Payments without a customer can't be matched"
 msgstr "Pagamentos sem cliente não podem ser combinados"
 
@@ -3239,7 +3243,7 @@ msgstr "Preservar o sinal do Balanço"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Presets config"
 msgstr "Predefinições config"
 
@@ -3292,7 +3296,7 @@ msgstr "Prorata temporis"
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/account_asset.py:0 code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/trustcode-addons/base_accounting_kit/models/account_asset.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "Prorata temporis can be applied only for time method \"number of depreciations\"."
 msgstr "Prorata temporis só pode ser aplicado para o método de tempo \"número de depreciações\"."
 
@@ -3553,14 +3557,14 @@ msgstr "Acompanhamento de pesquisa"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/js/payment_render.js:0 code:addons/base_accounting_kit/static/src/js/payment_render.js:0
-#, fuzzy, python-format
+#, python-format
 msgid "Select Partner"
 msgstr "Selecionar parceiro"
 
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Select a partner or choose a counterpart"
 msgstr "Selecione um parceiro ou escolha uma contraparte"
 
@@ -3674,7 +3678,7 @@ msgstr "Estado"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/template.xml:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "Supplier Invoice"
 msgstr "Nota fiscal do fornecedor"
 
@@ -3688,7 +3692,7 @@ msgstr "TOP 10 CLIENTES"
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/template.xml:0 code:addons/base_accounting_kit/static/src/xml/template.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "TOP 10 CUSTOMERS"
 msgstr "TOP 10 CLIENTES"
 
@@ -3775,6 +3779,7 @@ msgid "Text"
 msgstr "Texto"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__text_align
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__text_align
 #: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__text_align
 #: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_multiple_invoice_layout
@@ -3782,6 +3787,7 @@ msgid "Text Align"
 msgstr "Alinhamento de Texto"
 
 #. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_import_journal_creation__text_position
 #: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__text_position
 #: model:ir.model.fields,field_description:base_accounting_kit.field_multiple_invoice_layout__text_position
 msgid "Text Position"
@@ -4158,7 +4164,7 @@ msgstr "Valor do Alerta"
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/credit_limit.py:0 code:addons/base_accounting_kit/models/credit_limit.py:0
 #: code:addons/trustcode-addons/base_accounting_kit/models/credit_limit.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "Warning amount should be less than Blocking amount"
 msgstr "O valor do aviso deve ser menor do que o valor do bloqueio"
 
@@ -4237,7 +4243,7 @@ msgstr "Gostaria de saber como enviar e-mails de acompanhamento e relatórios de
 
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/payment_matching.py:0 code:addons/base_accounting_kit/models/payment_matching.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "Write-Off"
 msgstr "Baixa"
 
@@ -4261,7 +4267,7 @@ msgstr "Anos"
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/wizard/account_lock_date.py:0 code:addons/base_accounting_kit/wizard/account_lock_date.py:0
 #: code:addons/trustcode-addons/base_accounting_kit/wizard/account_lock_date.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "You are not allowed to execute this action."
 msgstr "Você não tem permissão para executar esta ação."
 
@@ -4277,7 +4283,7 @@ msgstr ""
 #. module: base_accounting_kit
 #: code:addons/addons_gauna/base_accounting_kit/models/account_asset.py:0 code:addons/base_accounting_kit/models/account_asset.py:0
 #: code:addons/trustcode-addons/base_accounting_kit/models/account_asset.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "You cannot delete a document is in %s state."
 msgstr "Não é possível excluir um documento em %s estado."
 
@@ -4306,7 +4312,7 @@ msgstr "Não é possível excluir linhas de parcela lançadas."
 #: code:addons/addons_gauna/base_accounting_kit/wizard/account_bank_book_wizard.py:0 code:addons/addons_gauna/base_accounting_kit/wizard/account_cash_book_wizard.py:0
 #: code:addons/base_accounting_kit/wizard/account_bank_book_wizard.py:0 code:addons/base_accounting_kit/wizard/account_cash_book_wizard.py:0
 #: code:addons/trustcode-addons/base_accounting_kit/wizard/account_bank_book_wizard.py:0 code:addons/trustcode-addons/base_accounting_kit/wizard/account_cash_book_wizard.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "You must choose a Start Date"
 msgstr "Você deve escolher uma data de início"
 
@@ -4334,7 +4340,7 @@ msgstr "Você deve definir uma data de início."
 #. module: base_accounting_kit
 #. openerp-web
 #: code:addons/addons_gauna/base_accounting_kit/static/src/xml/payment_matching.xml:0 code:addons/base_accounting_kit/static/src/xml/payment_matching.xml:0
-#, fuzzy, python-format
+#, python-format
 msgid "You reconciled"
 msgstr "Você se reconciliou."
 
