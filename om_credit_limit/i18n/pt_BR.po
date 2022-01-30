@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_credit_limit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-30 20:08+0000\n"
+"PO-Revision-Date: 2022-01-30 16:09-0400\n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: om_credit_limit
+#: model:ir.model,name:om_credit_limit.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: om_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_warning_warning__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: om_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_warning_warning__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: om_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_res_partner__amount_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_res_users__amount_credit_limit
+#: model_terms:ir.ui.view,arch_db:om_credit_limit.view_partner_form
+msgid "Credit Limit"
+msgstr "Limite de Crédito"
+
+#. module: om_credit_limit
+#: model_terms:ir.ui.view,arch_db:om_credit_limit.view_warning_warning_form
+#, fuzzy
+msgid "Credit limit warning. Would you like to continue ?"
+msgstr "Aviso de limite de crédito. Gostaria de continuar?"
+
+#. module: om_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_account_move__display_name
+#: model:ir.model.fields,field_description:om_credit_limit.field_res_partner__display_name
+#: model:ir.model.fields,field_description:om_credit_limit.field_warning_warning__display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: om_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_account_move__id
+#: model:ir.model.fields,field_description:om_credit_limit.field_res_partner__id
+#: model:ir.model.fields,field_description:om_credit_limit.field_warning_warning__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_credit_limit
+#: model:ir.model,name:om_credit_limit.model_account_move
+msgid "Journal Entry"
+msgstr "Lançamento de Diário"
+
+#. module: om_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_account_move____last_update
+#: model:ir.model.fields,field_description:om_credit_limit.field_res_partner____last_update
+#: model:ir.model.fields,field_description:om_credit_limit.field_warning_warning____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: om_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_warning_warning__write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização Feita por"
+
+#. module: om_credit_limit
+#: model:ir.model.fields,field_description:om_credit_limit.field_warning_warning__write_date
+msgid "Last Updated on"
+msgstr "Última Atualização Feita em"
+
+#. module: om_credit_limit
+#: model_terms:ir.ui.view,arch_db:om_credit_limit.view_warning_warning_form
+msgid "NO"
+msgstr "NÃO"
+
+#. module: om_credit_limit
+#: code:addons/addons_gauna/om_credit_limit/models/account_move.py:0
+#: code:addons/om_credit_limit/models/account_move.py:0
+#: model:ir.model,name:om_credit_limit.model_warning_warning
+#: model_terms:ir.ui.view,arch_db:om_credit_limit.view_warning_warning_form
+#, python-format
+msgid "Warning"
+msgstr "Aviso"
+
+#. module: om_credit_limit
+#: model_terms:ir.ui.view,arch_db:om_credit_limit.view_warning_warning_form
+msgid "YES"
+msgstr "SIM"
